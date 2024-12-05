@@ -18,6 +18,7 @@ def insert_sorted(arr, num_to_insert):
       arr.insert(i, num_to_insert)
       return
     
+  # if end or array check, we add
   arr.append(num_to_insert)
   
 # read data
